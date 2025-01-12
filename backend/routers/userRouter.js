@@ -7,6 +7,7 @@ const router = express.Router();
 
 
 router.post('/signup', signupMiddleware , signUp)
+
 router.post('/login', loginMiddleware , login)
 
 
